@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* desktop */
+
+/* menu de navegação */
+header {
+    font-size: 17px;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+    border: 2px solid #e6e6e6;
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    height: 9vh;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 5px;
+    margin-bottom: 1em;
+    margin-left: 2vh;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: rgb(118, 118, 118);
+}
+.nav_links li a:hover {
+    color: rgb(187, 31, 249)
+}
+.nav_links li a#atual {
+    color: rgb(138, 5, 190);
+}
+.nav_links li a#atual:hover {
+    color: rgb(187, 31, 249);
+}
+.nav_links li img {
+    position: relative;
+    top: 10px;
+}
+
+header a#login {
+    margin-right: -5vh;
+    color: rgb(138, 5, 190);
+    position: relative;
+    float: right;
+}
+header a#login:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(187, 31, 249);
+}
+header button {
+    height: 8.9vh;
+    width: 200px;
+    color: white;
+    background-color: rgb(138, 5, 190);
+    font-size: 17px;
+    float: right;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+header button:hover {
+    background-color: rgb(187, 31, 249);
+}
+
+
+
+/* section 1 */
+main section.section1 div#section1 {
+    position: absolute;
+    top: 35vh;
+    left: 16vh;
+}
+
+main section.section1 div#section1 p#texto_principal {
+    position: relative;
+    font-size: 46px;
+    color: white;
+    line-height: 1.125em;
+    margin-bottom: 5%;
+}
+main section.section1 div#section1 p#texto_secundario {
+    position: relative;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5%;
+}
+main section.section1 div#section1 button {
+    background-color: rgb(138, 5, 190);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: white;
+    padding: 20px 20px;
+    font-size: 16px;
+}
+main section.section1 div#section1 button:hover {
+    background-color: rgb(187, 31, 249);
+}
+
+
+main section.section1 img#mulher_pulando {
+    padding-top: 15vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+main section.section1 img#celular {
+    width: 30%;
+    position: absolute;
+    top: 45vh;
+    right: 15vh;
+}
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 1250px) {
+    /* menu de navegação */
+    header nav, header a, header button {
+        display: none;
+        height: 1vh;
+    }
+    
+    /* section1 */
+}
