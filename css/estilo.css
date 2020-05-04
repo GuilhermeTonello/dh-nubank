@@ -116,6 +116,7 @@ main section.section1 img#mulher_pulando {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    max-width: 100%;
 }
 
 main section.section1 img#celular {
@@ -124,8 +125,259 @@ main section.section1 img#celular {
     top: 45vh;
     right: 15vh;
 }
+main section.section1 img#celular-device {
+    display: none;
+}
 
 
+
+/* section 2 */
+main section.section2 {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(245, 245, 245);
+    margin-top: 10%;
+}
+
+main section.section2 img {
+    width: 50%;
+    max-width: 50%;
+    position: absolute;
+    right: 7vh;
+    top: 120vh;
+    height: auto;
+    object-fit: cover;
+}
+
+main section.section2 p {
+    display: block;
+    margin-left: 7vh;
+    padding-top: 20vh;
+}
+main section.section2 p a {
+    font-size: 46px;
+    color: rgb(118, 118, 118);
+    max-width: 30rem;
+}
+main section.section2 p a span#span1 {
+    color: rgb(138, 5, 190);
+}
+main section.section2 p a span#span2 {
+    font-size: 16px;
+    color: rgb(138, 5, 190);
+    text-decoration: underline;
+    text-decoration-color: rgb(118, 118, 118);
+    transition: all 0.3s ease 0s;
+}
+main section.section2 p a span#span2:hover {
+    text-decoration-color: rgb(138, 5, 190);
+}
+
+
+
+/* section 3 */
+main section.section3 {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+
+main section.section3 img {
+    width: 25%;
+    max-width: 50%;
+    position: absolute;
+    right: 7vh;
+    top: 211.2vh;
+    height: auto;
+    object-fit: cover;
+}
+
+main section.section3 p {
+    display: block;
+    margin-left: 7vh;
+    padding-top: 20vh;
+}
+main section.section3 p a {
+    font-size: 46px;
+    color: rgb(118, 118, 118);
+    max-width: 30rem;
+}
+main section.section3 p a span#span1 {
+    color: rgb(138, 5, 190);
+}
+main section.section3 p a span#span2 {
+    font-size: 16px;
+    color: rgb(138, 5, 190);
+    text-decoration: underline;
+    text-decoration-color: rgb(118, 118, 118);
+    transition: all 0.3s ease 0s;
+}
+main section.section3 p a span#span2:hover {
+    text-decoration-color: rgb(138, 5, 190);
+}
+
+
+
+/* section 4 */
+main section.section4 {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(83, 0, 130);
+}
+
+main section.section4 img {
+    width: 35%;
+    max-width: 50%;
+    position: absolute;
+    right: 7vh;
+    top: 300vh;
+    height: auto;
+    object-fit: cover;
+}
+
+main section.section4 p {
+    display: block;
+    margin-left: 7vh;
+    padding-top: 30vh;
+}
+main section.section4 p a {
+    font-size: 46px;
+    color: rgb(202, 142, 226);
+    max-width: 30rem;
+}
+main section.section4 p a span#span1 {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 142, 226);
+    transition: all 0.3s ease 0s;
+}
+main section.section4 p a span#span1:hover {
+    text-decoration-color: white;
+}
+main section.section4 p a span#span2 {
+    font-size: 16px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(202, 142, 226);
+    transition: all 0.3s ease 0s;
+}
+main section.section4 p a span#span2:hover {
+    text-decoration-color: white;
+}
+main section.section4 img#celular {
+    display: none;
+}
+
+
+
+/* section 5 */
+main section.section5 {
+    width: 100%;
+    height: auto;
+}
+
+main section.section5 p a {
+    font-size: 46px;
+    color: white;
+    max-width: 30rem;
+}
+main section.section5 p a span {
+    font-size: 16px;
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+    text-decoration-color: rgb(118, 118, 118);
+}
+main section.section5 p a span:hover {
+    text-decoration-color: white;
+}
+
+main section.section5 img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+main section.section5 div {
+    position: absolute;
+    top: 405vh;
+    margin-left: 7vh;
+}
+
+
+
+/* section 6 */
+main section.section6 {
+    width: 100%;
+    height: auto;
+}
+
+main section.section6 p a {
+    font-size: 46px;
+    color: white;
+    max-width: 30rem;
+}
+main section.section6 p a span {
+    font-size: 16px;
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+    text-decoration-color: rgb(118, 118, 118);
+}
+main section.section6 p a span:hover {
+    text-decoration-color: white;
+}
+
+main section.section6 img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+main section.section6 div {
+    position: absolute;
+    top: 490vh;
+    margin-left: 7vh;
+}
+
+
+
+/* section 7 */
+main section.section7 {
+    width: 100%;
+    height: auto;
+}
+
+main section.section7 p a {
+    font-size: 46px;
+    color: white;
+    max-width: 30rem;
+}
+main section.section7 p a span {
+    font-size: 16px;
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+    text-decoration-color: rgb(118, 118, 118);
+}
+main section.section7 p a span:hover {
+    text-decoration-color: white;
+}
+
+main section.section7 img#pc {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+}
+main section.section7 img#celular {
+    display: none;
+}
+
+main section.section7 div {
+    position: absolute;
+    top: 590vh;
+    margin-left: 7vh;
+}
 
 
 
@@ -135,7 +387,182 @@ main section.section1 img#celular {
     header nav, header a, header button {
         display: none;
         height: 1vh;
+        position: fixed;
     }
     
+    
+    
     /* section1 */
+    main section.section1 div#section1 button {
+        display: none;
+    }
+    
+    main section.section1 img#mulher_pulando {
+        object-fit: cover;
+        height: 100vh;
+        margin-left: none;
+        margin-right: none;
+        padding-top: 2vh;
+        width: 100%;
+    }
+    
+    main section.section1 div#section1{
+        top: 25vh;
+        left: 0vh;
+        margin-left: 5vh;
+    }
+    
+    main section.section1 img#celular {
+        display: none;
+    }
+    main section.section1 img#celular-device {
+        display: block;
+        width: 40vh;
+        position: absolute;
+        top: 70vh;
+        left: 10%;
+    }
+    
+    
+    
+    /* section 2 */
+    main section.section2 {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(245, 245, 245);
+        margin-top: 110%;
+    }
+    main section.section2 p a {
+        font-size: 36px;
+    }
+    main section.section2 p a span#span2 {
+        font-size: 16px;
+    }
+    main section.section2 img {
+        width: 100%;
+        max-width: 100%;
+        position: static;
+        padding-top: 5vh;
+        height: auto;
+        object-fit: cover;
+    }
+    main section.section2 {
+        height: auto;
+    }
+    
+    
+    
+    /* section 3 */
+    main section.section3 {
+        width: 100%;
+        background-color: white;
+    }
+    main section.section3 p a {
+        font-size: 36px;
+    }
+    main section.section3 p a span#span2 {
+        font-size: 16px;
+    }
+    main section.section3 img {
+        width: 65%;
+        max-width: 100%;
+        position: relative;
+        top: 0.5vh;
+        left: 5vh;
+        object-fit: cover;
+    }
+    main section.section3 {
+        height: auto;
+    }
+    
+    
+    
+    /* section 4 */
+    main section.section4 img#pc {
+        display: none;
+    }
+    main section.section4 img#celular {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        top: 0.5vh;
+        left: 1vh;
+        object-fit: cover;
+    }
+    
+    main section.section4 p {
+        padding-top: 10vh;
+    }
+    main section.section4 p a {
+        font-size: 36px;
+    }
+    main section.section4 p a span#span2 {
+        font-size: 16px;
+    }
+    
+    main section.section4 {
+        height: auto;
+    }
+    
+    
+    
+    /* section 5 */
+    main section.section5 p a {
+        font-size: 36px;
+    }
+    main section.section5 p a span {
+        font-size: 16px;
+    }
+    main section.section5 div {
+        top: 500vh;
+    }
+    
+    main section.section5 img {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        height: 90vh;
+    }
+    
+    
+    
+    /* section 6 */
+    main section.section6 p a {
+        font-size: 36px;
+    }
+    main section.section6 p a span {
+        font-size: 16px;
+    }
+    main section.section6 div {
+        top: 590vh;
+    }
+    
+    main section.section6 img {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        height: 70vh;
+    }
+    
+    /* section 7 */
+    main section.section7 p a {
+        font-size: 36px;
+    }
+    main section.section7 p a span {
+        font-size: 16px;
+    }
+    main section.section7 div {
+        top: 650vh;
+    }
+    
+    main section.section7 img#pc {
+        display: none;
+    }
+    main section.section7 img#celular {
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        height: 80vh;
+    }
+    
 }
