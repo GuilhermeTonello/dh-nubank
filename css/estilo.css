@@ -37,7 +37,7 @@ header {
     color: rgb(118, 118, 118);
 }
 .nav_links li a:hover {
-    color: rgb(187, 31, 249)
+    color: rgb(187, 31, 249);
 }
 .nav_links li a#atual {
     color: rgb(138, 5, 190);
@@ -381,6 +381,153 @@ main section.section7 div {
 
 
 
+/* footer */
+footer {
+    color: white;
+    font-size: 1.125rem;
+}
+footer a {
+    color: white;
+    font-size: 1.125rem;
+}
+
+footer div.geral div.nav a {
+    margin-bottom: 0.5em;
+    font-size: 1rem;
+}
+footer div.geral div.nav a:hover {
+    color: rgb(195, 56, 250);
+}
+footer div.geral div.nav p {
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+footer div.geral {
+    background-color: rgb(17, 17, 17);
+    height: auto;
+}
+footer div.geral div.nav {
+    padding: 80px 56px;
+    border-bottom: 1px solid rgb(25, 25, 25);
+    display: grid;
+    row-gap: 48px;
+    grid-template-columns: 1fr 1fr;
+}
+footer div.geral div.nav div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer div.geral div#endereco_geral {
+    padding: 80px 56px;
+    border-bottom: 1px solid rgb(25, 25, 25);
+}
+footer div.geral div#endereco_geral div#endereco {
+    width: 100%;
+}
+footer div.geral div#endereco_geral div#endereco p {
+    display: inline-block;
+    padding-left: 1em;
+}
+
+footer ul#redes_sociais li {
+    display: inline;
+}
+footer ul#redes_sociais img {
+    background-color: white;
+    width: 2%;
+    margin-right: 10px;
+    float: right;
+    transition: all 0.3s ease 0s;
+}
+footer ul#redes_sociais img:hover {
+    background-color: rgb(202, 142, 226);
+}
+
+footer div#idioma {
+    padding: 40px 56px;
+}
+ /* Customize the label (the container) */
+.container {
+  display: inline;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  margin-left: 14px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  float: right;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(17, 17, 17);
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  border: 1px solid rgb(198, 83, 198);
+}
+footer div#idioma  label:hover {
+    color: rgb(198, 83, 198);
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: rgb(17, 17, 17);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 5px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+/* botão device*/
+body div.botao_celular {
+    display: none;
+}
+
+
+
 /* mobile */
 @media screen and (max-width: 1250px) {
     /* menu de navegação */
@@ -563,6 +710,63 @@ main section.section7 div {
         max-width: 100%;
         object-fit: cover;
         height: 80vh;
+        display: block;
     }
     
+    
+    
+    /* footer */
+    footer div.geral div.nav {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 48px;
+    }
+    footer div.geral div.nav div {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    footer div.geral div#endereco_geral {
+        padding: 80px 56px;
+        border-bottom: 1px solid rgb(25, 25, 25);
+    }
+    footer div.geral div#endereco_geral div#endereco {
+        width: 100%;
+    }
+    footer div.geral div#endereco_geral div#endereco p {
+        display: inline-block;
+        padding-left: 1em;
+    }
+
+    footer ul#redes_sociais li {
+        display: inline;
+    }
+    footer ul#redes_sociais img {
+        background-color: white;
+        width: 10%;
+        margin-right: 10px;
+        float: right;
+        transition: all 0.3s ease 0s;
+    }
+    footer ul#redes_sociais img:hover {
+        background-color: rgb(202, 142, 226);
+    }
+    
+    
+    
+    /* botão device */
+    body div.botao_celular {
+        display: block;
+        height: 10vh;
+    }
+    body div.botao_celular button {
+        font-size: 16px;
+        background-color: indigo;
+        color: white;
+        width: 100%;
+        height: 10vh;
+        position: fixed;
+        bottom: 0;
+    }
 }
