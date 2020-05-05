@@ -194,7 +194,7 @@ main section.section3 img {
 
 main section.section3 p {
     display: block;
-    margin-left: 7vh;
+    margin-left: 7vw;
     padding-top: 20vh;
 }
 main section.section3 p a {
@@ -229,7 +229,7 @@ main section.section4 img {
     width: 35%;
     max-width: 50%;
     position: absolute;
-    right: 7vh;
+    right: 7vw;
     top: 300vh;
     height: auto;
     object-fit: cover;
@@ -237,7 +237,7 @@ main section.section4 img {
 
 main section.section4 p {
     display: block;
-    margin-left: 7vh;
+    margin-left: 7vw;
     padding-top: 30vh;
 }
 main section.section4 p a {
@@ -301,7 +301,7 @@ main section.section5 img {
 main section.section5 div {
     position: absolute;
     top: 405vh;
-    margin-left: 7vh;
+    margin-left: 7vw;
 }
 
 
@@ -337,7 +337,7 @@ main section.section6 img {
 main section.section6 div {
     position: absolute;
     top: 490vh;
-    margin-left: 7vh;
+    margin-left: 7vw;
 }
 
 
@@ -376,7 +376,7 @@ main section.section7 img#celular {
 main section.section7 div {
     position: absolute;
     top: 590vh;
-    margin-left: 7vh;
+    margin-left: 7vw;
 }
 
 
@@ -556,7 +556,7 @@ body div.botao_celular {
     main section.section1 div#section1{
         top: 25vh;
         left: 0vh;
-        margin-left: 5vh;
+        margin-left: 5vw;
     }
     
     main section.section1 img#celular {
@@ -564,7 +564,7 @@ body div.botao_celular {
     }
     main section.section1 img#celular-device {
         display: block;
-        width: 40vh;
+        width: 70vw;
         position: absolute;
         top: 70vh;
         left: 10%;
@@ -615,7 +615,7 @@ body div.botao_celular {
         max-width: 100%;
         position: relative;
         top: 0.5vh;
-        left: 5vh;
+        left: 5vw;
         object-fit: cover;
     }
     main section.section3 {
@@ -633,8 +633,9 @@ body div.botao_celular {
         max-width: 100%;
         position: relative;
         top: 0.5vh;
-        left: 1vh;
+        left: 1vw;
         object-fit: cover;
+        display: block;
     }
     
     main section.section4 p {
@@ -661,7 +662,7 @@ body div.botao_celular {
         font-size: 16px;
     }
     main section.section5 div {
-        top: 500vh;
+        top: 510vh;
     }
     
     main section.section5 img {
@@ -681,7 +682,7 @@ body div.botao_celular {
         font-size: 16px;
     }
     main section.section6 div {
-        top: 590vh;
+        top: 600vh;
     }
     
     main section.section6 img {
@@ -699,7 +700,7 @@ body div.botao_celular {
         font-size: 16px;
     }
     main section.section7 div {
-        top: 650vh;
+        top: 670vh;
     }
     
     main section.section7 img#pc {
@@ -762,7 +763,7 @@ body div.botao_celular {
     }
     body div.botao_celular button {
         font-size: 16px;
-        background-color: indigo;
+        background-color: rgb(138, 5, 190);
         color: white;
         width: 100%;
         height: 10vh;
